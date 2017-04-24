@@ -14,6 +14,7 @@
 		A00E59D21EADF71B0033BC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00E59D01EADF71B0033BC9C /* LaunchScreen.storyboard */; };
 		A00E59DD1EADF71B0033BC9C /* XianYuTabBar_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E59DC1EADF71B0033BC9C /* XianYuTabBar_SwiftTests.swift */; };
 		A00E59E81EADF71B0033BC9C /* XianYuTabBar_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E59E71EADF71B0033BC9C /* XianYuTabBar_SwiftUITests.swift */; };
+		A00E59F61EADF7420033BC9C /* XianYuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E59F51EADF7420033BC9C /* XianYuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A00E59E31EADF71B0033BC9C /* XianYuTabBar_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XianYuTabBar_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00E59E71EADF71B0033BC9C /* XianYuTabBar_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XianYuTabBar_SwiftUITests.swift; sourceTree = "<group>"; };
 		A00E59E91EADF71B0033BC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00E59F51EADF7420033BC9C /* XianYuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XianYuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				A00E59C71EADF71B0033BC9C /* AppDelegate.swift */,
+				A00E59F51EADF7420033BC9C /* XianYuView.swift */,
 				A00E59C91EADF71B0033BC9C /* ViewController.swift */,
 				A00E59CB1EADF71B0033BC9C /* Main.storyboard */,
 				A00E59CE1EADF71B0033BC9C /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00E59CA1EADF71B0033BC9C /* ViewController.swift in Sources */,
+				A00E59F61EADF7420033BC9C /* XianYuView.swift in Sources */,
 				A00E59C81EADF71B0033BC9C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
